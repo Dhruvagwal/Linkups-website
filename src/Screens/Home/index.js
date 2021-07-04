@@ -15,13 +15,13 @@ function BusinessContent({ label, Content }) {
   return (
     <div className="my-auto items-center mt-4">
       <h1
-        className="w-96 text-2xl font-bold text-center mb-2 mx-auto"
+        className="text-2xl font-bold text-center mb-2 mx-auto"
         style={{ color: "#acdbdf" }}
       >
         {label}
       </h1>
       <hr className='w-1/4 m-auto'/>
-      <div className="w-96 text-center p-4 mx-auto">
+      <div className="text-center p-4 mx-auto">
         <span className="overflow-hidden">{Content}</span>
       </div>
     </div>
@@ -112,7 +112,9 @@ function Index() {
       </div>
       {/* Body 2 End */}
         <div className='text-center mt-4'>
-          <img alt='Download our linkups app from play store' src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/640px-Google_Play_Store_badge_EN.svg.png' className='w-auto h-12 mt-4 mx-auto'/>
+          <a href='https://play.google.com/store/apps/details?id=com.crnauser'>
+            <img alt='Download our linkups app from play store' src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/640px-Google_Play_Store_badge_EN.svg.png' className='w-auto h-12 mt-4 mx-auto'/>
+          </a>
         </div>
         {/* Footer */}
             <div className='text-center my-14'>
